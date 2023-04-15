@@ -1,0 +1,116 @@
+@media only screen and (max-width: 1250px) {
+
+    .intro{
+        max-width: 450px;
+    }
+
+    .block2 > div{
+        width: 375px;
+    }
+
+
+    .projects div {
+        max-width: 230px;
+    }
+
+    .projects div img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+@media only screen and (max-width: 1020px){
+    .block1{
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    .profile{
+        height: 150px;
+        margin: 20px 0px;
+    }
+
+    .profile img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .intro{
+        margin-bottom: 20px;
+        max-width: 550px;
+    }
+
+    .block2 {
+        flex-direction: column;
+    } 
+
+    .block2 > div {
+        width: 590px;
+        height: 210px;
+    }
+
+    .education div{
+        display: inline-block;
+        text-align: justify;
+    }
+
+    .skills {
+        max-width: 590px;
+    }
+
+    .skills ul li{
+        padding: 7px;
+    }
+
+    .education h3{
+        padding: 7px;
+    }
+
+    .college{
+        transform: translate(0px, -43px);
+    }
+
+    .projects{
+        flex-direction: column;
+    }
+
+    .projects div {
+        max-width: 550px;
+        max-height: 200px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .projects div img{
+        width: 130px;
+        height: 130px;
+        margin: 0px 10px;
+    }
+
+    .projects div p{
+        margin: 0px 10px;
+        text-align: center;
+    }
+
+    .block4{
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+    .contactForm form{
+        margin: 35px 65px
+    }
+
+    .contactDetails{
+        width: 280px;
+        margin-bottom: 20px;
+    }
+
+    .contactDetails div {
+        margin-bottom: 5px;
+    }
+}
+
+
+
